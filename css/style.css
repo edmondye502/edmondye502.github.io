@@ -97,6 +97,15 @@ img {
     padding: 5px;
 }
 
+#comments {
+    margin: 0 0 10px 0;
+    background-color: #777;
+    border-radius: 0 0 5px 5px;
+    border-style: groove;
+    border-color: #fff;
+    height: 300px;
+}
+
 #contact
 {
     margin: 0 0 10px 0;
@@ -119,4 +128,27 @@ h1 {
     text-align: center;
     font-family: Georgia, serif;
     color: #fff;
+}
+
+#commentsTable {
+    font-family: Georgia, serif;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 auto 5px;
+}
+
+textarea {
+    margin-bottom: 5px;
+    resize: none;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cSubmit {
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

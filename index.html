@@ -4,6 +4,7 @@
 	<head>
 		<title>Edmond Ye</title>
 		<link href="css/style.css" rel="stylesheet">
+  		<script type="text/javascript" src="js/comments.js"></script>
 
 	</head>
 
@@ -14,6 +15,7 @@
 					<li><a href = "#home">Home</a></li>
 					<li><a href = "#about">About</a></li>
 					<li><a href = "#projects">Projects</a></li>
+					<li><a href = "#comments">Comments</a></li>
 					<li><a href = "#contact">Contact</a></li>
 				</ul>
 
@@ -55,6 +57,22 @@
 				 	</a>
 				</div>
 
+				<div id = "comments">
+					<a name = "comments">
+
+					<form id = "commentsForm" action = "php/processComments.php" method = "post" onsubmit = "return validateCommentSection()">
+						<h1>Comments</h1>
+						<table id = "commentsTable">
+							<tr valign = "top">
+								<td>Name: </td>
+								<td><input type = "text" name = "name" /></td>
+							</tr>
+						</table>
+						<textarea name = "comments" rows = "8"></textarea>
+						<input id = "cSubmit" type = "submit" value = "Submit" />
+					</form>
+					</a>
+				</div>
 
 				<div id = "contact">
 					<a name = "contact">
