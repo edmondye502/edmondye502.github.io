@@ -71,4 +71,24 @@ img {
     font-family: Georgia, serif;
     color: #fff;
     font-size: 35px;
+    text-align: center;
 }
+
+#contact
+{
+    margin: 0 0 10px 0;
+    background-color: #777;
+    border-radius: 0 0 5px 5px;
+    border-style: groove;
+    border-color: #fff;
+    height: 300px;
+}
+
+#pContact {
+    text-align: center;
+    margin: 10px;
+    font-family: Georgia, serif;
+    color: #fff;
+    font-size: 20px;
+}
+
